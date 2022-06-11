@@ -11,9 +11,41 @@ p{
     color: #8b8b8bcc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    text-align: center;
+}
+
+.search-nav {
+    text-align: center;
+}
+
+input {
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
 }
 
 button {
     color: #fff;
     background-color: #025157;
+    max-width: 250px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #025157;
+    padding: 6px 20px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+input, button {
+    height: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.main-image {
+    max-width: 75%;
 }
