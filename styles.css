@@ -116,3 +116,55 @@ li {
     margin: 140px;
     text-align: center;
 }
+
+.title-2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #025157;
+}
+
+article p {
+    color: #343434;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.video-containerr {
+    display: flex;
+    flex-direction: column;
+}
+
+.features {
+    display: grid;
+    /*grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);*/
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    height: 660px;
+    gap: 50px;
+}
+
+.features p {
+    color: #b6b6b6;
+}
+
+.features h3 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.features a {
+    color: #67b54b;
+    text-decoration: none;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.features article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
